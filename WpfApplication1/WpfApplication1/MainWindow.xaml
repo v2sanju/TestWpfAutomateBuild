@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Application-1 with database calls early loading" Height="455.263" Width="882.895" Loaded="Window_Loaded">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="306" Margin="243,71,0,0" VerticalAlignment="Top" Width="543" SelectionChanged="TabControl_SelectionChanged">
+            <TabItem Header="Personel Details">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="89*"/>
+                        <ColumnDefinition Width="366*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Content="Click Me!" HorizontalAlignment="Left" Margin="33.526,183,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Column="1"/>
+                    <ComboBox x:Name="cb_Country" HorizontalAlignment="Left" Margin="17,39,0,0" VerticalAlignment="Top" Width="262" Grid.Column="1" />
+                    <ComboBox x:Name="cb_State" HorizontalAlignment="Left" Margin="17,88,0,0" VerticalAlignment="Top" Width="262" Grid.Column="1" />
+                    <ComboBox x:Name="cb_City" HorizontalAlignment="Left" Margin="17,139,0,0" VerticalAlignment="Top" Width="262" Grid.Column="1" />
+                    <Label Content="Country:" HorizontalAlignment="Left" Margin="46,35,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Label Content="State" HorizontalAlignment="Left" Margin="46,84,0,0" VerticalAlignment="Top"/>
+                    <Label Content="City:" HorizontalAlignment="Left" Margin="52,136,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Education Details" HorizontalAlignment="Left" Width="117" Margin="-2,-2,-56,0">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="142*"/>
+                        <ColumnDefinition Width="313*"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="cb_UGEducation" HorizontalAlignment="Left" Margin="131,40,0,0" VerticalAlignment="Top" Width="266" Grid.ColumnSpan="2" />
+                    <Label Content="Under Graduation" HorizontalAlignment="Left" Margin="21,36,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="cb_GraduationEducation" HorizontalAlignment="Left" Margin="131,81,0,0" VerticalAlignment="Top" Width="266" Grid.ColumnSpan="2" />
+                    <Label Content="Graduation" HorizontalAlignment="Left" Margin="21,77,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="cb_PostGraduationEducation" HorizontalAlignment="Left" Margin="131,126,0,0" VerticalAlignment="Top" Width="266" Grid.ColumnSpan="2" />
+                    <Label Content="Post Graduation" HorizontalAlignment="Left" Margin="21,122,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="cb_Certification" HorizontalAlignment="Left" Margin="132,171,0,0" VerticalAlignment="Top" Width="265" Grid.ColumnSpan="2" />
+                    <Label Content="Certification" HorizontalAlignment="Left" Margin="22,167,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Bank Details" HorizontalAlignment="Left" Width="102" Margin="-2,-2,-45,2">
+                <Grid Background="#FFE5E5E5">
+                    <ComboBox x:Name="cb_BankName" HorizontalAlignment="Left" Margin="131,40,0,0" VerticalAlignment="Top" Width="266" SelectionChanged="cb_BankName_SelectionChanged" />
+                    <Label Content="Bank Name" HorizontalAlignment="Left" Margin="21,36,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="cb_BranchName" HorizontalAlignment="Left" Margin="131,90,0,0" VerticalAlignment="Top" Width="266" />
+                    <Label Content="Branch Name" HorizontalAlignment="Left" Margin="21,86,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label Name="lbl_Status" Content="" HorizontalAlignment="Left" Margin="44,28,0,0" VerticalAlignment="Top" Width="791"/>
+
+    </Grid>
+</Window>
