@@ -1,0 +1,2 @@
+# TestWpfAutomateBuild
+TestWpfAutomateBuild
