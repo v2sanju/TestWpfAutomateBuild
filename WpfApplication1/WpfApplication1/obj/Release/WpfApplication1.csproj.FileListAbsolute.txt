@@ -1,0 +1,13 @@
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\.build\package\WpfApplication1.exe.config
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\.build\package\WpfApplication1.exe
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\.build\package\WpfApplication1.pdb
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\WpfApplication2.Properties.Resources.resources
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
+D:\Projects\TestWpfAutomateBuild\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb
