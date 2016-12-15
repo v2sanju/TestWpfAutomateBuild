@@ -22,7 +22,7 @@ namespace WpfApplication1
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    |
+    ||
         Stopwatch watch = new Stopwatch();
 
         MainViewModel vm;
