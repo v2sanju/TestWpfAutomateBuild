@@ -77,7 +77,7 @@ namespace WpfApplication1
             dtBankBranchList = vm.GetBankBranchData(null);
 
             watch.Stop();
-            lbl_Status.Content = "Window loaded took time Milliseconds: " + watch.ElapsedMilliseconds.ToString(;
+            lbl_Status.Content = "Window loaded took time Milliseconds: " + watch.ElapsedMilliseconds.ToString();
         }
 
        
