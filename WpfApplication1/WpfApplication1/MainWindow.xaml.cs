@@ -51,7 +51,7 @@ namespace WpfApplication1
                 MessageBox.Show(cb_Country.SelectedValue.ToString());
             else
                 MessageBox.Show("Select from drop-downs");
-        }
+        
 
        
        
